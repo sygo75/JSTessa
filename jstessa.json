@@ -62,12 +62,9 @@
                   "text": "Contact"
                 },
                 {
-                  "type": "label",
-                  "text": "John"
-                },
-                {
                   "type": "textfield",
-                  "name": "contact"
+                  "name": "contact",
+                  "style": { "border_color": "#000000"}
                 }
               ]
             },
