@@ -36,7 +36,7 @@
           "font": "AvenirNext-Heavy",
           "size": "18"
         },
-        "search": {
+        "_comment_search": {
           "name": "query",
           "placeholder": "Enter keyword",
           "action": {
@@ -47,6 +47,24 @@
             }
           }
         }
+      },
+      "sections": [{
+          "items": [
+            {
+              "type": "label",
+              "text": "Contact"
+            },
+            {
+              "type": "label",
+              "text": "Date"
+            },
+            {
+              "type": "label",
+              "text": "Référence"
+            }]
+      }],
+      "footer": {
+
       }
     }
   }
