@@ -52,7 +52,20 @@
           "items": [
             {
               "type": "label",
-              "text": "Contact"
+              "text": "Nouvel incident"
+            },
+            {
+              "type": "vertical",
+              "components": [
+                {
+                  "type": "label",
+                  "text": "Contact"
+                },
+                {
+                  "type": "textfield",
+                  "name": "contact"
+                }
+              ]
             },
             {
               "type": "label",
@@ -61,6 +74,14 @@
             {
               "type": "label",
               "text": "Référence"
+            },
+            {
+              "type": "label",
+              "text": "Titre de l'incident"
+            },
+            {
+              "type": "label",
+              "text": "Description"
             }]
       }],
       "footer": {
