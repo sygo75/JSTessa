@@ -1,0 +1,35 @@
+{
+  "$jason": {
+    "head": {
+      "title": "JSTessa",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "padding": "10",
+          "size": "15"
+        },
+        "normal": {
+          "font": "HelveticaNeue",
+          "size": "12"
+        }
+      },
+      "actions": {
+        "$load": {
+          "type": "$render"
+        },
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "Tessa",
+        "menu": {
+          "text": "Menu"
+          }
+        }
+      }
+    }
+  }
+}
