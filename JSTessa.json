@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "JSTessa",
+      "title": "Header Example",
       "styles": {
         "bold": {
           "font": "HelveticaNeue-CondensedBold",
@@ -24,9 +24,27 @@
     },
     "body": {
       "header": {
-        "title": "Tessa",
+        "title": "[Title goes here]",
         "menu": {
-          "text": "Menu"
+          "text": "View JSON",
+          "href": {
+            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/view/header/index.json",
+            "view": "web"
+          }
+        },
+        "style": {
+          "font": "AvenirNext-Heavy",
+          "size": "18"
+        },
+        "search": {
+          "name": "query",
+          "placeholder": "Enter keyword",
+          "action": {
+            "type": "$util.banner",
+            "options": {
+              "title": "{{$get.query}}",
+              "description": "The content inside the search input is {{$get.query}}"
+            }
           }
         }
       }
